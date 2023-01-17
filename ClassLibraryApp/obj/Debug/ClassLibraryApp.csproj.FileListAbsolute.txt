@@ -1,0 +1,6 @@
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ClassLibraryApp\bin\Debug\ClassLibraryApp.dll
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ClassLibraryApp\bin\Debug\ClassLibraryApp.pdb
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ClassLibraryApp\obj\Debug\ClassLibraryApp.csprojAssemblyReference.cache
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ClassLibraryApp\obj\Debug\ClassLibraryApp.csproj.CoreCompileInputs.cache
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ClassLibraryApp\obj\Debug\ClassLibraryApp.dll
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ClassLibraryApp\obj\Debug\ClassLibraryApp.pdb

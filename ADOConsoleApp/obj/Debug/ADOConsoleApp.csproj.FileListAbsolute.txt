@@ -1,0 +1,7 @@
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\bin\Debug\ADOConsoleApp.exe.config
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\bin\Debug\ADOConsoleApp.exe
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\bin\Debug\ADOConsoleApp.pdb
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\obj\Debug\ADOConsoleApp.csprojAssemblyReference.cache
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\obj\Debug\ADOConsoleApp.csproj.CoreCompileInputs.cache
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\obj\Debug\ADOConsoleApp.exe
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\obj\Debug\ADOConsoleApp.pdb
