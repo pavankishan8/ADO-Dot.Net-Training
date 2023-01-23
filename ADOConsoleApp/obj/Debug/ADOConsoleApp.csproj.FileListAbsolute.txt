@@ -5,3 +5,8 @@ D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\obj\Debug\ADOConsol
 D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\obj\Debug\ADOConsoleApp.csproj.CoreCompileInputs.cache
 D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\obj\Debug\ADOConsoleApp.exe
 D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\obj\Debug\ADOConsoleApp.pdb
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\bin\Debug\EntityFramework.dll
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\bin\Debug\EntityFramework.xml
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Starmark-Pavan R\ADO DotNEt\ClassLibraryApp\ADOConsoleApp\obj\Debug\ADOConsoleApp.csproj.CopyComplete
