@@ -37,30 +37,28 @@ namespace ADOConsoleApp
         static void Main(string[] args)
         {
             fillRecords();
-
-            //DisplayEmployeesofDept("Utilities");
-            //insertStudent(3,"Vishwas V","Chikkaballapura",96, 2);
-            insertBranch("MBA");
-            //deleteStudent(1);
-            //updateStudent(1, "Raj", "North", 97, 1);
+            //insertStudent(6,"Arjun","Rajasthan",97, 1);
+            //deleteStudent(5);
+            updateStudent(1, "Pavan R", "Bangalore", 97, 1);
+            DisplayStudentsofBranch("BCA");
         }
 
-        private static void updateStudent(int id, string name, string address, int salary, int deptId)
+        private static void updateStudent(int id, string name, string address, int salary, int branchId)
         {
             var selectedRow = disconnectedObj.Tables[0].Rows.Find(id);
             selectedRow[0] = id;
             selectedRow[1] = name;
             selectedRow[2] = address;
             selectedRow[3] = salary;
-            selectedRow[4] = deptId;
+            selectedRow[4] = branchId;
             ada.Update(disconnectedObj, "StdList");
         }
 
-        private static void deleteStudent(int recId)
+        private static void deleteStudent(int delId)
         {
             foreach (DataRow row in disconnectedObj.Tables[0].Rows)
             {
-                if (row[0].ToString() == recId.ToString())
+                if (row[0].ToString() == delId.ToString())
                 {
                     row.Delete();
                     break;
@@ -68,7 +66,6 @@ namespace ADOConsoleApp
             }
             ada.Update(disconnectedObj, "StdList");
         }
-
 
         private static void insertStudent(int id,string name, string address, int percent, int branchId)
         {
@@ -82,30 +79,21 @@ namespace ADOConsoleApp
             disconnectedObj.Tables[0].Rows.Add(newRow);
             ada.Update(disconnectedObj, "StdList");
         }
-
-        private static void insertBranch(string name)
+        
+        static void DisplayStudentsofBranch(string branchName)
         {
-            DataRow newRow = disconnectedObj.Tables[0].NewRow();
-            newRow[1] = name;
-
-            disconnectedObj.Tables[0].Rows.Add(newRow);
-            ada.Update(disconnectedObj, "BranchList");
-        }
-
-        static void DisplayEmployeesofDept(string deptName)
-        {
-            int deptId = 0;
+            int branchId = 0;
             foreach (DataRow row in disconnectedObj.Tables["BranchList"].Rows)
             {
-                if (row["BranchName"].ToString() == deptName)
+                if (row["BranchName"].ToString() == branchName)
                 {
-                    deptId = (int)row["BranchId"];
+                    branchId = (int)row["BranchId"];
                     break;
                 }
             }
             foreach (DataRow row in disconnectedObj.Tables["StdList"].Rows)
             {
-                if (row[4].ToString() == deptId.ToString())
+                if (row[4].ToString() == branchId.ToString())
                 {
                     Console.WriteLine(row["StdName"]);
                 }

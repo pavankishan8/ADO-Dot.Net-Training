@@ -10,7 +10,7 @@ namespace ADOConsoleApp
 
         const string STRQUERY = "SELECT * FROM tblEmployee";
         const string STRFIND = "SELECT * FROM tblEmployee WHERE EmpName = @name";
-        const string STRINSERT = "INSERT INTO tblEmployee VALUES( @name, @address, @salary, @deptId)";
+        const string STRINSERT = "INSERT INTO tblEmployee VALUES(@name, @address, @salary, @deptId)";
         //const string STRINPUTINSERT = "INSERT INTO tblEmployee VALUES( @name, @address, @salary, @deptId)";
         const string STRDEPTTABLE = "SELECT * from tblDept";
         const string STRINSERTPROC = "INSERTEMPLOYEE";
